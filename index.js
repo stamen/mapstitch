@@ -70,6 +70,8 @@ app.get("/mapimg", function(req, res) {
   var tasks = urls.map(function(url) {
     return function(callback) {
       console.time(url);
+      console.time(url + ".ttfb");
+      var timed = false;
 
       request({
         url: url,
@@ -91,6 +93,11 @@ app.get("/mapimg", function(req, res) {
         }
 
         return callback();
+      }).on("response", function() {
+        if (!timed) {
+          timed = true;
+          console.timeEnd(url + ".ttfb");
+        }
       });
     };
   });
