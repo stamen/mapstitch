@@ -1,0 +1,20 @@
+{
+  "terrain"                          : "http://tilefarm.stamen.com/terrain/%s/%s/%s.png",
+  "terrain-background"               : "http://tilefarm.stamen.com/terrain-background/%s/%s/%s.png",
+  "terrain-labels"                   : "http://tilefarm.stamen.com/terrain-labels/%s/%s/%s.png",
+  "terrain-lines"                    : "http://tilefarm.stamen.com/terrain-lines/%s/%s/%s.png",
+  "toner"                            : "http://tilefarm.stamen.com/toner/%s/%s/%s.png",
+  "toner-2010"                       : "http://tilefarm.stamen.com/toner-2010/%s/%s/%s.png",
+  "toner-2011"                       : "http://tilefarm.stamen.com/toner-2011/%s/%s/%s.png",
+  "toner-2011-labels"                : "http://tilefarm.stamen.com/toner-2011-labels/%s/%s/%s.png",
+  "toner-2011-lines"                 : "http://tilefarm.stamen.com/toner-2011-lines/%s/%s/%s.png",
+  "toner-2011-lite"                  : "http://tilefarm.stamen.com/toner-2011-lite/%s/%s/%s.png",
+  "toner-2012-background"            : "http://tilefarm.stamen.com/toner-2012-background/%s/%s/%s.png",
+  "toner-2012-hybrid"                : "http://tilefarm.stamen.com/toner-2012-hybrid/%s/%s/%s.png",
+  "toner-2012-labels"                : "http://tilefarm.stamen.com/toner-2012-labels/%s/%s/%s.png",
+  "toner-2012-lines"                 : "http://tilefarm.stamen.com/toner-2012-lines/%s/%s/%s.png",
+  "toner-2012-lite"                  : "http://tilefarm.stamen.com/toner-2012-lite/%s/%s/%s.png",
+  "trees-cabs-crime"                 : "http://a.tiles.mapbox.com/v3/stamen.trees-cabs-crime/%s/%s/%s.png",
+  "watercolor"                       : "http://tilefarm.stamen.com/watercolor/%s/%s/%s.jpg",
+  "naip"                             : "http://a.tiles.mapbox.com/v3/examples.map-2k9d7u0c/%s/%s/%s.jpg"
+}

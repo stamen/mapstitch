@@ -1,11 +1,8 @@
 {
-  "name": "static-maps",
+  "name": "stitch",
   "version": "0.0.0",
-  "description": "ERROR: No README.md file found!",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": "",
   "author": "",
   "license": "BSD",
@@ -13,6 +10,9 @@
     "canvas": "~1.0.2",
     "request": "~2.20.0",
     "d3": "~3.1.5",
-    "async": "~0.2.7"
+    "async": "~0.2.7",
+    "sphericalmercator": "~1.0.2",
+    "express": "~3.2.0",
+    "cors": "0.0.5"
   }
 }
