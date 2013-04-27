@@ -14,7 +14,7 @@ var async = require("async"),
     SphericalMercator = require("sphericalmercator"),
     merc = new SphericalMercator({ size: 256 });
 
-var SOURCES = require("./sources.json");
+var PROVIDERS = require("./providers.json");
 
 app.configure(function() {
   app.use(express.responseTime());
@@ -54,9 +54,9 @@ app.get("/mapimg", function(req, res) {
     });
   });
 
-  var sourceUrl = SOURCES[req.query.p];
+  var providerUrl = PROVIDERS[req.query.p];
 
-  if (!sourceUrl) {
+  if (!providerUrl) {
     // no such source available
     return res.send(404);
   }
@@ -64,7 +64,7 @@ app.get("/mapimg", function(req, res) {
   var urls = tiles.reduce(function(a, b) {
     return a.concat(b);
   }, []).map(function(x) {
-    return util.format(sourceUrl, x.zoom, x.x, x.y);
+    return util.format(providerUrl, x.zoom, x.x, x.y);
   });
 
   var tasks = urls.map(function(url) {
