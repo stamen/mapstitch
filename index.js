@@ -128,10 +128,10 @@ app.get("/mapimg", function(req, res) {
     console.time("scaling");
 
     var target = new Canvas(width, height),
-        ctx = target.getContext("2d");
+        targetCtx = target.getContext("2d");
 
     console.log("width: %d, height: %d", width, height);
-    ctx.drawImage(canvas, 0, 0, width, height);
+    targetCtx.drawImage(canvas, 0, 0, width, height);
 
     console.timeEnd("scaling");
 
