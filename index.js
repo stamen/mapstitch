@@ -137,8 +137,15 @@ app.get("/mapimg", function(req, res) {
     var target = new Canvas(width, height),
         targetCtx = target.getContext("2d");
 
+    var nw = merc.px(extent[0], zoom),
+        se = merc.px(extent[1], zoom),
+        startX = nw[0] % 256,
+        startY = nw[1] % 256,
+        sourceWidth = se[0] - nw[0],
+        sourceHeight = se[1] - nw[1];
+
     console.log("width: %d, height: %d", width, height);
-    targetCtx.drawImage(canvas, 0, 0, width, height);
+    targetCtx.drawImage(canvas, startX, startY, sourceWidth, sourceHeight, 0, 0, width, height);
 
     console.timeEnd("scaling");
 
