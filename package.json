@@ -14,5 +14,9 @@
     "sphericalmercator": "~1.0.2",
     "express": "~3.2.0",
     "cors": "0.0.5"
+  },
+  "engines": {
+    "node": "~0.10.5",
+    "npm": "~1.2.18"
   }
 }
