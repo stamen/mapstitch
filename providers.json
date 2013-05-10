@@ -17,5 +17,6 @@
   "trees-cabs-crime"                 : "http://a.tiles.mapbox.com/v3/stamen.trees-cabs-crime/%s/%s/%s.png",
   "watercolor"                       : "http://tilefarm.stamen.com/watercolor/%s/%s/%s.jpg",
   "naip"                             : "http://a.tiles.mapbox.com/v3/examples.map-2k9d7u0c/%s/%s/%s.jpg",
-  "osm"                              : "http://tile.openstreetmap.org/%s/%s/%s.png"
+  "osm"                              : "http://tile.openstreetmap.org/%s/%s/%s.png",
+  "tmp"                              : "http://sandwich-maker.herokuapp.com/watercolor,watercolor%5Bmultiply@100%5D,watercolor%5Bmultiply@100%5D,naip%5Bmultiply@100%5D,toner-labels%5Blighter@50%5D/%s/%s/%s.png"
 }
