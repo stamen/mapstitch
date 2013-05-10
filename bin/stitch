@@ -1,0 +1,21 @@
+"use strict";
+
+var fs = require("fs");
+
+var stitch = require("../lib/index");
+var PROVIDERS = require("../providers.json");
+
+var view = {
+  extent: [-93.3577, 45.0181, -93.1807, 44.9226],
+  zoom: 16
+};
+
+var dims = stitch.getDimensionsForView(view);
+var tiles = stitch.getTilesForView(view);
+console.log("Fetching %d tiles...", tiles.length * tiles[0].length);
+
+stitch.stitch(PROVIDERS["tmp"], view, function(err, canvas) {
+  var target = stitch.crop(canvas, view, dims.width, dims.height);
+
+  target.jpegStream().pipe(fs.createWriteStream(__dirname + "/../out.jpg"));
+});
