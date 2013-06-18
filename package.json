@@ -1,16 +1,16 @@
 {
-  "name": "stitch",
+  "name": "mapstitch",
   "version": "0.1.0",
   "description": "Stitches map tiles together",
   "main": "lib/index.js",
-  "bin": "./bin/stitch-cli.js",
-  "homepage": "https://github.com/stamen/stitch",
+  "bin": "./bin/mapstitch-cli.js",
+  "homepage": "https://github.com/stamen/mapstitch",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stamen/stitch.git"
+    "url": "https://github.com/stamen/mapstitch.git"
   },
   "bugs": {
-    "url": "https://github.com/stamen/stitch/issues"
+    "url": "https://github.com/stamen/mapstitch/issues"
   },
   "author": "Seth Fitzsimmons <seth@mojodna.net>",
   "license": "MIT",
