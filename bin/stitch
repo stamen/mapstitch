@@ -50,7 +50,7 @@ var dims = stitch.getDimensionsForView(view);
 var tiles = stitch.getTilesForView(view);
 console.log("Fetching %d tiles...", tiles.length * tiles[0].length);
 
-stitch.stitch(provider, view, function(err, canvas) {
+stitch(provider, view, function(err, canvas) {
   var target = stitch.crop(canvas, view, dims.width, dims.height);
 
   target.jpegStream().pipe(fs.createWriteStream(__dirname + "/../out.jpg"));
