@@ -1,0 +1,10 @@
+{
+    "node": true,
+    "es5": true,
+    "globalstrict": true,
+    "curly": true,
+    "sub": true,
+    "indent": 2,
+    "newcap": true,
+    "white": false
+}
