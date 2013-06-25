@@ -8,7 +8,9 @@ var http = require("http");
 var cors = require("cors"),
     express = require("express"),
     app = express();
-var stitch = require("./lib/index");
+var stitch = require("./lib/index")({
+  tileSize: TILE_SIZE
+});
 
 var PROVIDERS = require("./providers.json");
 

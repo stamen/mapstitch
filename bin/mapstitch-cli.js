@@ -5,7 +5,7 @@
 // TODO output file
 // TODO tilesize
 var ARGV = require("optimist")
-    .usage("Usage: %0 --zoom [zoom] --provider [provider] minX minY maxX maxY")
+    .usage("Usage: $0 --zoom [zoom] --provider [provider] minX minY maxX maxY")
     .demand(["z", "p"])
     .alias("z", "zoom")
     .alias("p", "provider")
@@ -14,7 +14,7 @@ var ARGV = require("optimist")
     .argv;
 
 var fs = require("fs");
-var stitch = require("../lib/index");
+var stitch = require("../lib/index")();
 
 var zoom = ARGV.zoom;
 
@@ -51,6 +51,11 @@ var tiles = stitch.getTilesForView(view);
 console.log("Fetching %d tiles...", tiles.length * tiles[0].length);
 
 stitch(provider, view, function(err, canvas) {
+  if (err) {
+    console.error("Error while stitching:", err.message);
+    return;
+  }
+
   var target = stitch.crop(canvas, view, dims.width, dims.height);
 
   target.jpegStream().pipe(fs.createWriteStream(__dirname + "/../out.jpg"));
