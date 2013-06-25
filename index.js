@@ -69,13 +69,15 @@ var parseExtent = function(req, res, next) {
 };
 
 var validateProvider = function(req, res, next) {
-  req.stitch = req.stitch || {};
-  req.stitch.providerTemplate = PROVIDERS[req.query.p];
-
-  if (!req.stitch.providerTemplate) {
-    // no such source available
-    return res.send(404, "No such provider: " + req.query.p);
+  if (!PROVIDERS[req.query.p]) {
+    if (!req.stitch.providerTemplate) {
+      // no such source available
+      return res.send(404, "No such provider: " + req.query.p);
+    }
   }
+
+  req.stitch = req.stitch || {};
+  req.stitch.providerTemplate = PROVIDERS[req.query.p].tiles[0];
 
   return next();
 };

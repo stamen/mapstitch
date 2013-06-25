@@ -1,21 +1,117 @@
 {
-  "terrain"                          : "http://tilefarm.stamen.com/terrain/{z}/{x}/{y}.png",
-  "terrain-background"               : "http://tilefarm.stamen.com/terrain-background/{z}/{x}/{y}.png",
-  "terrain-labels"                   : "http://tilefarm.stamen.com/terrain-labels/{z}/{x}/{y}.png",
-  "terrain-lines"                    : "http://tilefarm.stamen.com/terrain-lines/{z}/{x}/{y}.png",
-  "toner"                            : "http://tilefarm.stamen.com/toner/{z}/{x}/{y}.png",
-  "toner-2010"                       : "http://tilefarm.stamen.com/toner-2010/{z}/{x}/{y}.png",
-  "toner-2011"                       : "http://tilefarm.stamen.com/toner-2011/{z}/{x}/{y}.png",
-  "toner-2011-labels"                : "http://tilefarm.stamen.com/toner-2011-labels/{z}/{x}/{y}.png",
-  "toner-2011-lines"                 : "http://tilefarm.stamen.com/toner-2011-lines/{z}/{x}/{y}.png",
-  "toner-2011-lite"                  : "http://tilefarm.stamen.com/toner-2011-lite/{z}/{x}/{y}.png",
-  "toner-2012-background"            : "http://tilefarm.stamen.com/toner-2012-background/{z}/{x}/{y}.png",
-  "toner-2012-hybrid"                : "http://tilefarm.stamen.com/toner-2012-hybrid/{z}/{x}/{y}.png",
-  "toner-2012-labels"                : "http://tilefarm.stamen.com/toner-2012-labels/{z}/{x}/{y}.png",
-  "toner-2012-lines"                 : "http://tilefarm.stamen.com/toner-2012-lines/{z}/{x}/{y}.png",
-  "toner-2012-lite"                  : "http://tilefarm.stamen.com/toner-2012-lite/{z}/{x}/{y}.png",
-  "trees-cabs-crime"                 : "http://a.tiles.mapbox.com/v3/stamen.trees-cabs-crime/{z}/{x}/{y}.png",
-  "watercolor"                       : "http://tilefarm.stamen.com/watercolor/{z}/{x}/{y}.jpg",
-  "naip"                             : "http://a.tiles.mapbox.com/v3/examples.map-2k9d7u0c/{z}/{x}/{y}.jpg",
-  "osm"                              : "http://tile.openstreetmap.org/{z}/{x}/{y}.png"
+  "toner": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "terrain": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/terrain/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 4,
+    "maxzoom": 18
+  },
+  "watercolor": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/watercolor/{z}/{x}/{y}.jpg"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 3,
+    "maxzoom": 16
+  },
+  "toner-hybrid": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-hybrid/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-labels": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-labels/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-lines": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-lines/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-background": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-background/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-lite": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-lite/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-2010": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2010/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-2011": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2011/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-2011-lines": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2011-lines/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-2011-labels": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2011-labels/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "toner-2011-lite": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2011-lite/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 0,
+    "maxzoom": 20
+  },
+  "terrain-background": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/terrain-background/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0.",
+    "minzoom": 4,
+    "maxzoom": 18
+  },
+  "terrain-labels": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/terrain-labels/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 4,
+    "maxzoom": 18
+  },
+  "terrain-lines": {
+    "tiles": ["http://ts.us-east-1.ec2.stamen.com/terrain-lines/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
+    "minzoom": 4,
+    "maxzoom": 18
+  },
+  "trees-cabs-crime": {
+    "tiles": ["http://mb.tiles.stamen.com/v3/stamen.trees-cabs-crime/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0.",
+    "minzoom": 11,
+    "maxzoom": 18
+  },
+  "naip": {
+    "tiles": ["http://mb.tiles.stamen.com/v3/examples.map-2k9d7u0c/{z}/{x}/{y}.jpg"],
+    "attribution": "Imagery © DigitalGlobe, MapBox",
+    "maxzoom": 19,
+    "minzoom": 0,
+    "name": "Satellite (unlabeled)"
+  },
+  "openstreetmap": {
+    "tiles": ["http://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+    "attribution": "© OpenStreetMap contributors",
+    "maxzoom": 18,
+    "minzoom": 0
+  }
 }
