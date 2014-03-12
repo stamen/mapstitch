@@ -84,7 +84,7 @@ var validateProvider = function(req, res, next) {
 
 app.get("/", validateProvider, parseExtent, function(req, res) {
   var view = {
-    extent: req.stitch.extent,
+    extents: [req.stitch.extent],
     zoom: +req.query.zoom
   };
 
