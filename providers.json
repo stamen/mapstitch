@@ -1,96 +1,96 @@
 {
   "toner": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "terrain": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/terrain/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/terrain/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 4,
     "maxzoom": 18
   },
   "watercolor": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/watercolor/{z}/{x}/{y}.jpg"],
+    "tiles": ["http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 3,
     "maxzoom": 16
   },
   "toner-hybrid": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-hybrid/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-hybrid/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-labels": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-labels/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-labels/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-lines": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-lines/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-lines/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-background": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-background/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-background/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-lite": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-lite/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-lite/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-2010": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2010/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-2010/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-2011": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2011/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-2011/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-2011-lines": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2011-lines/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-2011-lines/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-2011-labels": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2011-labels/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-2011-labels/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "toner-2011-lite": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/toner-2011-lite/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/toner-2011-lite/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 0,
     "maxzoom": 20
   },
   "terrain-background": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/terrain-background/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/terrain-background/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0.",
     "minzoom": 4,
     "maxzoom": 18
   },
   "terrain-labels": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/terrain-labels/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/terrain-labels/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 4,
     "maxzoom": 18
   },
   "terrain-lines": {
-    "tiles": ["http://ts.us-east-1.ec2.stamen.com/terrain-lines/{z}/{x}/{y}.png"],
+    "tiles": ["http://tile.stamen.com/terrain-lines/{z}/{x}/{y}.png"],
     "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA.",
     "minzoom": 4,
     "maxzoom": 18
