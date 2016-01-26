@@ -1,6 +1,6 @@
 {
   "name": "mapstitch",
-  "version": "0.2.0-dev",
+  "version": "0.3.0-dev",
   "description": "Stitches map tiles together",
   "main": "lib/index.js",
   "bin": "./bin/mapstitch-cli.js",

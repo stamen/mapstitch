@@ -29,10 +29,10 @@ app.configure(function() {
  * @param {ServerResponse} res Response to flush to.
  */
 var flush = function(canvas, res) {
-  console.time("outputting");
+  stitch.debug.time("outputting");
 
   canvas.toBuffer(function(err, buf) {
-    console.timeEnd("outputting");
+    stitch.debug.timeEnd("outputting");
 
     if (err) {
       console.error(err);
@@ -104,9 +104,9 @@ app.get("/mapimg", validateProvider, parseExtent, function(req, res) {
   var view = stitch.getView(req.stitch.extent, width, height);
 
   stitch(req.stitch.providerTemplate, view, function(err, canvas) {
-    console.time("scaling");
+    stitch.debug.time("scaling");
     var target = stitch.crop(canvas, view, width, height);
-    console.timeEnd("scaling");
+    stitch.debug.timeEnd("scaling");
 
     flush(target, res);
   });
