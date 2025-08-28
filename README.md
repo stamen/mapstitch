@@ -2,6 +2,8 @@
 
 Stitches map tiles together.
 
+UPDATE: if you found this repository, you probably would rather use our slightly more recent tool here: https://github.com/stamen/the-ultimate-tile-stitcher
+
 ## Installation
 
 ```bash
